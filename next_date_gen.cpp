@@ -42,6 +42,9 @@ int main(){
             date=++date;
         }
     }
+    else{
+    printf("Wrong input given so no changes will occur\n");
+    }
     printf("The calculated date is:%d \n",date);
     printf("The calculated month is:%d \n",month);
     printf("The calculated year is:%d\n",y);
